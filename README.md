@@ -4,7 +4,7 @@ Flutter project demonstrating the usage of TabBar and TabBarView in flutter.
 
 ### Screenshot
 
-![App UI](./screenshots/screenshot-2025-06-12_23.01.54.702.png)
+<img src="./screenshots/screenshot-2025-06-12_23.01.54.702.png" alt="App screenshot" style="height: 700px;">
 
 ### Widgets Used
 
