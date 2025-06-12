@@ -1,16 +1,29 @@
-# flutter_tabs
+## flutter_tabs
 
-A new Flutter project.
+Flutter project demonstrating the usage of TabBar and TabBarView in flutter.
 
-## Getting Started
+### Screenshot
 
-This project is a starting point for a Flutter application.
+![App UI](./screenshots/screenshot-2025-06-12_23.01.54.702.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Widgets Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **`TabBar`**: Displays tabs (In our case, they are Home, Messages, Favorites, Profile) with icons and labels.
+- **`TabBarView`**: Renders the content of the selected tab, supporting swipe gestures for navigation between tabs.
+- **`TabController`**: Manages tab state and synchronization between `TabBar` and `TabBarView` for smooth transitions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+Ensure [Flutter](https://flutter.dev/docs/get-started/install) is installed.
+
+### Setup
+
+1. Clone this repository: `git clone https://github.com/degide/flutter_tabs.git`.
+2. Navigate to the project directory: `cd flutter_tabs`.
+3. Run `flutter pub get` to install dependencies.
+4. Start the app: `flutter run`.
+
+### Contributor
+
+- Egide Harerimana \<h.egide@alustudent.com\>
+
